@@ -55,14 +55,7 @@ Una vez activo el (venv), instala las librerías necesarias (ej. flask o sqlalch
 ```bash
 
 pip install flask sqlalchemy
-🛡️ ¿Por qué es vital la Centralización de Datos?
-En ciberseguridad, tener una API centralizada permite:
 
-Control de Acceso: Un solo punto donde verificar quién puede ver o borrar datos.
-
-Auditoría: Es más fácil registrar quién hizo cambios si todos pasan por la misma API.
-
-Resiliencia: Facilita la creación de copias de seguridad (backups) automáticas.
 
 
 ---
