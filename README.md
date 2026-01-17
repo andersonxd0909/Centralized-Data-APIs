@@ -52,7 +52,7 @@ source venv/bin/activate
 2. Instalación de dependencias
 Una vez activo el (venv), instala las librerías necesarias (ej. flask o sqlalchemy):
 
-Bash
+```bash
 
 pip install flask sqlalchemy
 🛡️ ¿Por qué es vital la Centralización de Datos?
@@ -64,22 +64,5 @@ Auditoría: Es más fácil registrar quién hizo cambios si todos pasan por la m
 
 Resiliencia: Facilita la creación de copias de seguridad (backups) automáticas.
 
-📈 Próximas Mejoras (Roadmap)
-[ ] Autenticación JWT: Añadir tokens de seguridad para que solo usuarios logueados usen la API.
-
-[ ] Documentación Swagger: Crear una página interactiva para probar los endpoints.
-
-[ ] Soporte para Docker: Contenerizar la API para que corra en cualquier servidor.
-
-Estructura de datos desarrollada para la eficiencia y la seguridad. 🛡️
-
 
 ---
-
-### **Explicación de lo básico para tu aprendizaje:**
-
-1.  **¿Qué es CRUD?**: Es lo que hace casi cualquier app (Facebook crea posts, los lee, los editas o los borras).
-2.  **Seguridad SQL**: He mencionado la prevención de **Inyección SQL**, que es uno de los ataques más comunes en ciberseguridad. Es cuando un hacker intenta "engañar" a tu base de datos escribiendo código en un formulario.
-3.  **Venv**: Al incluir los comandos de activación en el README, cualquier persona (o tú mismo en el futuro) sabrá exactamente cómo preparar el código para que funcione.
-
-**¿Te gustaría que te ayude a crear el código inicial para una de estas operaciones, como por ejemplo la de "Crear" un nuevo registro de forma segura?**
